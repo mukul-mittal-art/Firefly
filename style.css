@@ -15,8 +15,9 @@ body {
     height: 100vh;
     text-align: center;
     font-family: monospace;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding-left: 25%;
+    margin-top: 4vw;
 }
 .mastuffys2 {
     width: 60vw;
@@ -28,12 +29,36 @@ body {
     padding-right: 30%;
     
     .mafly {
+        width: 33vw;
+        height: auto;
+        margin-top: 3vw;
+    }
+}
+.mastuffyss3 {
+    width: 60vw;
+    height: 100vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5vw;
+    padding-left: 30%;
+    padding-right: 25%;
+    
+    .NOTmagrave {
         width: 40vw;
         height: auto;
         margin-top: 3vw;
     }
 }
-
+.mastuff4 {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5vw;
+    padding-left: 20%;
+    padding-right: 25%;
+    margin-top: 3vw;
+}
 
 .SCROLL {
     font-size: 12vw;
@@ -46,7 +71,16 @@ body {
     pointer-events: none; 
     background: radial-gradient(
     circle 280px at var(--x) var(--y),
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.85) 70%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(144, 144, 144, 0.85) 70%,
     rgb(0, 0, 0) 100%
   );}
+
+  h1, h2, h3, h4, li {
+    display: inline-block;
+    transition: transform 0.1s ease-in;
+  }
+
+  h1:hover, h2:hover, h3:hover, h4:hover, li:hover {
+    transform: scale(1.1);
+  }
