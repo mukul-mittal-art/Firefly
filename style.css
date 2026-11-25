@@ -1,0 +1,52 @@
+body {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0;
+    background-image:
+    linear-gradient(to right, black, transparent 2px), linear-gradient(to bottom, black, transparent 2px);
+    background-size: 3px 3px;
+    display: flex;
+}
+.body ::-webkit-scrollbar {
+    display: none;
+}
+.mastuff {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5vw;
+    padding-left: 25%;
+}
+.mastuffys2 {
+    width: 60vw;
+    height: 100vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5vw;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+    .mafly {
+        width: 40vw;
+        height: auto;
+        margin-top: 3vw;
+    }
+}
+
+
+.SCROLL {
+    font-size: 12vw;
+    margin-top: 1vw;
+}
+.firefly {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none; 
+    background: radial-gradient(
+    circle 280px at var(--x) var(--y),
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.85) 70%,
+    rgb(0, 0, 0) 100%
+  );}
