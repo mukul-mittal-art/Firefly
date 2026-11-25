@@ -1,3 +1,7 @@
+html {
+    cursor: url('images/firefly.png'), auto;
+}
+
 body {
     overflow-x: auto;
     overflow-y: hidden;
